@@ -1,2 +1,2 @@
-# prototype-28
-Transfer of ownership - unhappy path
+# prototype-23
+Transfer of Ownership
