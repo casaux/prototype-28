@@ -110,6 +110,12 @@
 			  
 			  $("#navigate a"). click(function(){
 				var radioValue = $("input[name='radio-ex1']:checked"). val();
+				if (radioValue == "success-dec") {
+					var radioValuero = $("input[name='radio-ex']:checked"). val();
+					if (radioValuero == "no"){
+						radioValue="different-ro-dec";
+					}
+				}  
 				window.location.href=radioValue+".html";
 			 });
 			  
